@@ -16,3 +16,20 @@ Updating acae6bf..9f5b8c0
 Fast-forward
  README.md | 1 +
  1 file changed, 1 insertion(+)
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (master) $ nano merge_branches
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (master) $ git add merge_branches
+git commit -m "Add merge branches output"
+git push origin master
+[master cc30cfa] Add merge branches output
+ 1 file changed, 18 insertions(+)
+ create mode 100644 merge_branches
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 900 bytes | 900.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/Mitalnmt/jbbmo-Introduction-to-Git-and-GitHub
+   acae6bf..cc30cfa  master -> master
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (master) $ 
