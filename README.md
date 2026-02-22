@@ -1,16 +1,16 @@
-# Introduction to Git and GitHub
+# Simple Interest Calculator
 
-## Simple Interest Calculator
+This project is created as part of the final assignment for the 
+"Getting Started with Git and GitHub" course.
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+## Project Description
+This repository contains a Bash script that calculates simple interest 
+based on user input such as principal amount, rate of interest, and time period.
 
-```
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
-Output
-   simple interest = p*t*r
-```
+## Technologies Used
+- Git
+- GitHub
+- Bash scripting
 
-_© 2022 XYZ, Inc._
+## Author
+Created for educational purposes.
