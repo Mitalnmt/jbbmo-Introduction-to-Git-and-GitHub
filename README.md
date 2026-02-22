@@ -14,3 +14,4 @@ based on user input such as principal amount, rate of interest, and time period.
 
 ## Author
 Created for educational purposes.
+This line fixes a typo.
