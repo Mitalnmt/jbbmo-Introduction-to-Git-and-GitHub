@@ -1,0 +1,18 @@
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (master) $ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (master) $ git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (bug-fix-typo) $ nano README.md
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (bug-fix-typo) $ git add README.md
+git commit -m "Fix typo in README"
+[bug-fix-typo 9f5b8c0] Fix typo in README
+ 1 file changed, 1 insertion(+)
+@Mitalnmt ➜ /workspaces/jbbmo-Introduction-to-Git-and-GitHub (bug-fix-typo) $ git checkout master
+git merge bug-fix-typo
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Updating acae6bf..9f5b8c0
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
